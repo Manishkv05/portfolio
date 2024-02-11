@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANISH K V-Personal PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bc393eb999.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+   <div id="header">
+      <div class="container">
+      <nav>
+         <img src="./images/Logo2.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+  
+        <div class="header-text">
+          <p>Java Full-Stack-Developer</p>
+          <h1>Hi, I'm <span>Manish </span><br>KV From Karnataka,India</h1>
+        </div>
+      </div>
+   </div>
+<!-- -------------about------------- -->
+  
+      <div id="about">
+         <div class="container">
+
+            <div class="row">
+               <div class="about-col1">
+                  <img src="./images/Screenshot 2023-10-26 185920.png">
+               </div>
+               <div class="about-col2">
+                  <h1 id="sub-taitle">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae deleniti culpa, at consectetur doloribus minima rerum, porro eveniet repellat maiores dolores nisi adipisci quis, unde illo totam eos atque.</p>
+                  <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>UI?UX</span><br>Designing web/App interface</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                     </ul>
+                  </div>
+                  <div class="tab-contents" id="experince">
+                     <ul>
+                        <li><span>2022/oct-2023/jul</span><br>Java Full-Stack-Development Training From J-Spiders,Banglore </li>
+                        <li><span>2021-2022</span><br>UI/UX Design for Automated Detection Of Tuberculisis Using Chest X-Ray Project</li>
+                        <li><span>2021/sep-2021/dec</span><br>Java Web-Development Internship From ComSoft Technologis,Banglore</li>
+                       
+                     </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                     <ul>
+                        <li><span>2018-2022</span><br>Computer-Science Engineering From KVGCE, Karnataka</li>
+                        <li><span>2018</span><br>PCMC From Vivekananda Pre-University college, Karnataka</li>
+                        <li><span>2016</span><br>High-School from Pragathi Kannada Medium High-School, Karnataka</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+      <!-- ---------services-------- -->
+      <div id="services">
+         <div class="container1">
+            <h1 id="sub-taitle">My services</h1>
+            <div class="services-list">
+               <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h2>WebDesign</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor expedita qui, ex commodi enim quo odio labore quasi et amet harum ratione veniam consectetur. Cum, accusantium esse. Porro, rem!</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div>
+                  <i class="fa-solid fa-crop-simple"></i>
+                  <h2>UI/UX</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor expedita qui, ex commodi enim quo odio labore quasi et amet harum ratione veniam consectetur. Cum, accusantium esse. Porro, rem!</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div>
+                  <i class="fa-brands fa-app-store-ios"></i>
+                  <h2>App Design</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor expedita qui, ex commodi enim quo odio labore quasi et amet harum ratione veniam consectetur. Cum, accusantium esse. Porro, rem!</p>
+                  <a href="#">Learn more</a>
+               </div>
+
+            </div>
+         </div>
+<!-- -----------------portfolio----------------  -->
+      </div>
+      <div id="portfolio">
+         <div class="container">
+            <h1 id="sub-taitle">My Work</h1>
+            <div class="work-list">
+               <div class="work">
+                  <img src="./images/pexels-pramod-tiwari-16767780.jpg">
+                  <div class="layer">
+                     <h3>About project1</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, magnam perspiciatis.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+               </div>
+               <div class="work">
+                  <img src="./images/pexels-paras-katwal-4218883.jpg">
+                  <div class="layer">
+                     <h3>About project2</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, magnam perspiciatis.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+               </div>
+               <div class="work">
+                  <img src="./images/pexels-anna-shvets-5614135.jpg">
+                  <div class="layer">
+                     <h3>About project3</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, magnam perspiciatis.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+               </div>
+
+            </div>
+           <a href="#" class="btn">See more</a> 
+
+         </div>
+      </div>
+
+    <!-- --------------------contact------------------ -->
+    <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>manish0918.kv@gmail.com</p>
+               <p><i class="fa-solid fa-mobile-retro"></i>+91 8861919319</p>
+               <div class="social-icons">
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+               </div>
+               <a href="./Manish_kv_CV.pdf.pdf" download class="btn btn2">Download CV</a>
+
+
+            </div>
+            <div class="contact-right">
+             <form name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="text" name="Email" placeholder="Your Email" required>
+               <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+             </form>
+             <span id="msg"></span>
+           </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p>Copyright © ManishKV. </p>
+      </div>
+    </div>
+         
+         
+
+<!--  
+
+//          // -------no need of this code this is used because of unwanted href was pointing to the entaire page:)
+//          const links = document.querySelectorAll('a');
+
+// links.forEach(link => {
+//   link.addEventListener('click', function(event) {
+//     event.preventDefault();
+
+//     const href = link.getAttribute('href');
+
+//     window.scroll({
+//       top: document.querySelector(href).offsetTop,
+//       behavior: 'smooth'
+//     });
+//   });
+// }); -->
+
+
+
+
+
+      <script src="./script.js"></script>
+    </body>
+ </html>
+
