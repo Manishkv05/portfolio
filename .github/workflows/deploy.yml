@@ -5,7 +5,7 @@ on:
     branches:
       - development  # Change to your default branch if needed
 
-obs:
+jobs:
   deploy:
     runs-on: ubuntu-latest
 
