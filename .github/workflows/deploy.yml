@@ -5,7 +5,7 @@ on:
     branches:
       - development  # Change to your default branch if needed
 
-jobs:
+obs:
   deploy:
     runs-on: ubuntu-latest
 
@@ -19,5 +19,5 @@ jobs:
         server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./  # Adjust if your website files are inside a subfolder
-        server-dir: /public_html/  # Path to your Hostinger web root directory
+        local-dir: ./  # Adjust if files are inside a subfolder
+        server-dir: /public_html/  # Hostinger's default root directory
