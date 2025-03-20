@@ -14,10 +14,11 @@ jobs:
       uses: actions/checkout@v4
 
     - name: 🚀 Deploy via FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
         server: ${{ secrets.FTP_HOST }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        forceSsl: true
         local-dir: ./  # Adjust if files are inside a subfolder
         server-dir: /public_html/  # Hostinger's default root directory
